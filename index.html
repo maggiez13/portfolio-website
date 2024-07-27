@@ -1,96 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Mei Zhu Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="images/profilepic.png" class="image avatar"><img src="images/profilepic.png" alt="Photo of Mei Zhu" /></a>
+					<h1><strong>Welcome</strong>, <span class="text-color">I am Mei Zhu,</span><br/>
+            <span class="text-color">an aspiring software engineer</span><br/>
+            <span class="text-color">passionate about tech for social good.</span></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+					<section id="one">
+						<header class="major">
+							<h2>About Me:</h2>
+						</header>
+						<p>I am a rising junior at Barnard College double majoring in Computer Science and Economics.</p>
+						<p>Currently, I am a fellow at the Marcy Lab School, focusing on full-stack development.</p>
+						<p>I aim to secure a role where I can utilize technology to create impactful and meaningful solutions.</p>
+						<p>Feel free to check out my projects or connect with me on LinkedIn!</p>
+						<ul class="actions">
+							<li><a href="http://www.linkedin.com/in/zhu-mei0613" class="button">Learn More</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3><a href="https://mod-4-project-senor-sol-cj-mz.github.io/mod-4-senor-sol/">Senor Sol</a></h3>
+								<p>An interactive website offering precise sunrise, sunset, and twilight times based on user-inputted zip codes, with a "feeling lucky" feature for random locations.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/comparemoviesfull.png" class="image fit thumb"><img src="images/thumbs/comparemoviesthumb.png" alt="Photo of Compare Movies"/></a>
+								<h3><a href="https://maggiez13.github.io/2-3-0-solo-project_compare-movies/">Compare Movies</a></h3>
+								<p>An interactive website to compare movies through visual data, allowing users to add, view, and analyze movie information.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/palettepickerfull.png" class="image fit thumb"><img src="images/thumbs/palettepickerthumb.png" alt="Photo of Palette Picker"/></a>
+								<h3><a href="https://maggiez13.github.io/mod2-solo-project-palette-picker/">Palette Picker</a></h3>
+								<p>An interactive website that allows users to create, save, delete, and copy custom color palettes with ease.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3>Coming Soon!</h3>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="https://drive.google.com/file/d/1SR7N7qzFDCyaxHD3n3Q3nxmb3tfZmM8P/view?usp=sharing" class="button">Resume</a></li>
+						</ul>
+					</section>
+
+				<!-- Three -->
+				<section id="three">
+					<h2>Get In Touch</h2>
+					<p>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new conversations and opportunities!</p>
+					<div class="row">
+							<div class="col-8 col-12-small">
+									<form method="post" action="/submit-form"> <!-- Update action URL as needed -->
+											<div class="row gtr-uniform gtr-50">
+													<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required /></div>
+													<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required /></div>
+													<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
+											</div>
+											<ul class="actions">
+													<li><input type="submit" value="Send Message" class="send-message-button"/></li>
+											</ul>
+									</form>
+							</div>
+							<div class="col-4 col-12-small">
+									<ul class="labeled-icons">
+											<li>
+													<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+													New York City, NY 
+											</li>
+											<li>
+													<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+													<a href="mailto:zhumeiqi0613@gmail.com">zhumeiqi0613@gmail.com</a>
+											</li>
+									</ul>
+							</div>
+					</div>
+			</section>			
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/maggiez13" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="http://www.linkedin.com/in/zhu-mei0613" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!-- check if resume needs to be granted access -->
+						<li><a href="https://drive.google.com/file/d/1SR7N7qzFDCyaxHD3n3Q3nxmb3tfZmM8P/view?usp=sharing" class="icon solid fa-file"><span class="label">Resume</span></a></li>
+						<li><a href="mailto:zhumeiqi0613@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Mei Zhu</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
